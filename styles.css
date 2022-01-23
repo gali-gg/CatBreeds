@@ -1,0 +1,52 @@
+body {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(v567-n-50-doodles.jpg);
+}
+
+footer {
+    color: white;
+    padding-left: 10px;
+    background-color: rgba(205, 193, 180, 0.8);
+    opacity: 0.8;
+}
+
+.cat-img-container {
+    overflow: hidden;
+    display: grid;
+    justify-items: center;
+}
+
+#main-content {
+    width: 55vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#cat-img {
+    min-width: 110%;
+    max-width: 130%;
+}
+
+
+
+#cat-card {
+    display: none;
+    max-width: 100%;
+}
+
+#img-div {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
