@@ -21,7 +21,7 @@ footer {
 }
 
 #main-content {
-    width: 55vw;
+    width: 60vw;
     margin: auto;
     margin-top: 50px;
 }
@@ -49,4 +49,15 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    #main-content {
+        margin-top: 10px;
+        width: 95vw;
+    }
+
+    #img-div {
+        min-height: 35vh;
+    }
 }
